@@ -1,7 +1,11 @@
-# statconsultancy
-Statistical Consultancy Lecture Notes
+# STA 474 2.0 Statistical Consultancy
 
-# Slide Template 
+## 2021 
 
-devtools::install_github("libjohn/dukeslides")
 
+ID | Project | Team Members | Marks|Start Date | End Date
+--- | --- | --- | --- | --- |
+ 1 | Statistical Consultancy Service - Introduction Video  |20  |
+To | 12 Oct 2021 | 18 Oct 2021 |
+ 2 | What is statistics? - Introduction Video  |20  |
+To | 12 Oct 2021 | 18 Oct 2021 |
