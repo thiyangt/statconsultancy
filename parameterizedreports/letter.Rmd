@@ -1,0 +1,19 @@
+---
+output: pdf_document
+params: 
+  date: "2021-10-22"
+  name: "Don"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+`r params$date`
+
+Hi `r params$name`
+
+This is your reports.
+
+Best Regards
+SCS
