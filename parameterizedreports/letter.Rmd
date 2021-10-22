@@ -1,5 +1,8 @@
 ---
-output: pdf_document
+output:
+  pdf_document:
+    keep_tex: yes
+classoption: a4paper
 params: 
   date: "2021-10-22"
   name: "Don"
