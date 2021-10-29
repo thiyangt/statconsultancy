@@ -1,0 +1,34 @@
+---
+output: pdf_document
+---
+
+```{r setup, echo = FALSE, cache = FALSE, include = FALSE}
+library(knitr)
+opts_knit$set(root.dir = here::here("workflow"))
+read_chunk("load.R")
+read_chunk("do.R")
+```
+
+## `read_chunk`
+
+- codes can be reusable across several documents
+
+- run R codes continuously in a separate file
+
+- save time as you do not have to recompile the whole document to see the results
+
+
+
+
+## Load packages
+
+```{r, load-pkgs}
+```
+
+
+## Data visualization
+
+```{r, dataviz}
+```
+
+
