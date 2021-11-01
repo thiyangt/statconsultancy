@@ -18,3 +18,7 @@
 |1 | Introduction to Statistical Consultancy | 11 Oct 2021 - 4-5pm |
 |1 | Client Meeting | 15 Oct 2021 - 1-2pm |
 |2 | Viva-video and Consultants' tool kit | 22 Oct 2021 - 1-3pm |
+|3 | Viva-Mrs Samanmali Dassanayaka project and R workflow (read_chunk) | 29 Oct 2021 - 1-3pm |
+|3 | Todo: Data entry guideline (1 Nov 2021) |  |
+|3 | Todo: Final solution (Mrs Dassanayaka): Panel Data (4 Nov 2021) |  |
+|3 | Todo: Video Project Log Form: 5 Nov 2021 |  |
