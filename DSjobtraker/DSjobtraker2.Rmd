@@ -1,0 +1,48 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## STA 474 2.0 Statistical Consultancy
+
+Due date: 8 December 2021 (9.00am)
+
+Method of evaluation: Viva and final documentation.
+Please note that all your work should be reproducible.
+
+Marks: 100
+
+
+### Task:
+
+We are going to create a dashboard to share our results. The 2020 - survey results dashboard is available at 
+
+\url{https://scs-fas-sjp.netlify.app/dsjobtrackervisualisation/scsdashboard}
+
+Every single one of you needs to create a panel for the dashboard. Please select a suitable topic for your panel.
+
+### Which data to use?
+
+Use 2021 survey data only
+
+### Software packages 
+
+Please use flexdashboard package to create the panel.
+
+The link to the package: https://pkgs.rstudio.com/flexdashboard/#/
+
+### Files to submit
+
+ - All documents necessary to reproduce results.
+ 
+ - Final HTML output
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+---
+title: "Statistical Consulting Service"
+bibliography: references.bib
+biblio-style: authoryear-comp
+linestretch: 1.5
+output:
+  MonashEBSTemplates::report:
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 8
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    number_sections: yes
+    citation_package: biblatex
+    toc: false
+---
+
+
+# Abstract
+
+The term “panel data” refers to the pooling of observations on a cross-section of households, countries, firms, etc. over several time periods. The models that are associated with panel data examine the group wise and time wise effects which can eitehr be fixed or random. In this document a specification of the workflow and methodology associated with the research project under the title of "Capital Structure And Profitability: Do Macro Economic Factors Matter?" will be presented.
+
+
+

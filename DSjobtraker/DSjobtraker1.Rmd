@@ -1,0 +1,46 @@
+---
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## STA 474 2.0 Statistical Consultancy
+
+Due date: 26 November 2021 (9.00am)
+
+Method of evaluation: Viva and final documentation.
+Please note that all your work should be reproducible.
+
+Marks: 100
+
+
+Task:
+
+Prepare a report cross-comparing the survey results in 2020 and 2021.
+You can download 2020 tidydata set using the following code.
+
+```r
+library(DSjobtracker)
+tibble::glimpse(DStidy)
+
+```
+
+## Things expect from the report
+
+Comparison between
+
+1. Spatial distribution and composition of job advertisements
+
+2. Software skills
+
+3. Salary
+
+4. Knowledge and skills
+
+5. Experience
+
+6. Discussion merit points and weak points of the two surveys.
+
+

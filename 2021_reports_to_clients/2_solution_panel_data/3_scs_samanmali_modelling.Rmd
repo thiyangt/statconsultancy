@@ -1,0 +1,105 @@
+---
+title: "Statistical Consulting Service"
+bibliography: references.bib
+biblio-style: authoryear-comp
+linestretch: 1.5
+output:
+  MonashEBSTemplates::report:
+    fig_caption: yes
+    fig_height: 5
+    fig_width: 8
+    includes:
+      in_header: preamble.tex
+    keep_tex: yes
+    number_sections: yes
+    citation_package: biblatex
+    toc: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE, messages=FALSE, warning=FALSE)
+# Make sure you have the latest versions of rmarkdown and bookdown installed
+library(ggplot2)
+
+library(readxl)
+
+#Firm specific data
+df<- read_excel("Modified Data Set 10.01.2021.xls")
+#Macro-economic variables
+df2 <- read_excel("Modified Data Set 10.01.2021.xls", sheet=2)
+
+library(tidyverse)
+
+#Package to deal with panel data
+library(plm)
+ 
+#scattter plot
+ library(car)
+ 
+ #plot means
+ library(gplots)
+ 
+ # linear interpolation te replace missing values
+ library(zoo)
+ 
+ #correlation plot
+ library(corrplot)
+ 
+ #to create a dataframe for unit root test
+ library(plm)
+ 
+ #unit root test
+ library(urca)
+ 
+ #Breusch-Pagan-Test
+ library(lmtest)
+ 
+ #Durbin Watson test 
+ library(car)
+
+```
+
+**Phase 2: Data Analysis and Modelling**
+
+## Disclosure
+
+This report is a compendium of the data analysis and modelling procedure followed with respect to the research topic *Capital Structure and Profitability: Do Macro Economic Factors Matter?*. The report has been compiled relating to phase 2 of the client engagement of Ms. Samanmali Dassanyake on behalf of the Statistical Consultancy Services, USJ.
+
+## 1. Introduction
+
+Capital structure can be seen as the specific combination of debt and equity used to finance a company's assets and operations. Many theories and views with regards to the optimal combination of debt to equity that will maximize a firm's profitability has been discussed across the years. 
+
+This study is an analytical research design that has been carried out to find evidence of the effect that macroeconomic variables might or might not have on the relationship between capital structure and profitability. 
+
+## 2. Research Objectives
+
+The defined research objectives are as follows;
+
+1. To examine the impact of Growth of Gross Domestic Product (GDP) on the relationship between Capital Structure and Profitability of manufacturing firms listed in Colombo Stock Exchange.
+
+2. To examine the impact of Inflation on the relationship between Capital Structure and Profitability of manufacturing firms listed in Colombo Stock Exchange.
+
+3. To examine the impact of Market Capitalization on the relationship between Capital Structure and Profitability of manufacturing firms listed in Colombo Stock Exchange.
+
+4. To examine the relationship between Capital Structure and Profitability of manufacturing firms listed in Colombo Stock Exchange.
+
+
+
+## 3. Data and Variables
+
+The variables of interest has been identified as per the below given conceptual framework.
+
+
+\includepdf[pages={2-9}, scale=1]{AS2017496.pdf}
+
+Hope the above documentation is easily comprehensible and if there is need for any further clarification, please do reach out to us.
+
+Thank you.
+
+Kind regards,
+
+Statistical Consulting Service – USJ
+
+
+
+
