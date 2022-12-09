@@ -4,7 +4,7 @@
     <title>STA 474 2.0 Statistical Consultancy</title>
     <meta charset="utf-8" />
     <meta name="author" content="Coordinator" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.17/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/duke-blue.css" rel="stylesheet" />
@@ -17,10 +17,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # STA 474 2.0 Statistical Consultancy
+]
+.subtitle[
 ## Dr Thiyanga S. Talagala
+]
+.author[
 ### Coordinator
+]
+.date[
 ### Statistical Consultancy Service <br><br> University of Sri Jayewardenepura, Sri Lanka <br><br> Web: <a href="https://scs-fas-sjp.netlify.app/" class="uri">https://scs-fas-sjp.netlify.app/</a>
+]
 
 ---
 
@@ -55,6 +63,16 @@ Goals:
 
 
 - To provide an opportunity for BSc (Honours) Statistics undergraduates  to train as statistical consultants 
+
+---
+
+## At the successful completion of this unit, you will learn
+
+- how statistics are applied in the real world
+- how to work on multiple problems
+- how to work under time constraints
+- how to communicate with non statisticians
+
 
 ---
 
@@ -98,6 +116,8 @@ Goals:
 
 - Understand the research question
 
+- Help the client define his or her problem
+
 - Translate research questions into problems that can be analysed with data
 
 - Determine the appropriate type of statistical analysis
@@ -109,7 +129,7 @@ Goals:
 
 
 ---
-# Skills
+## Skills
 
 - Communication skills
 
@@ -118,15 +138,40 @@ Goals:
     - understand their language (technical terms, etc)
     
     - communicate statistics effectively
+    
+    - ability to ask questions
+    
+    - ability to listen
 
 
-- Time-management skills
+- Time-management skills/ Meet deadlines
 
 - Networking talents
 
+- Work on multiple projects
+
 ---
 
-# Challenges
+### Factors that make the consulting process complicated
+
+- difficulty in establishing the client's wants and needs
+
+- training and experience of the consultant
+
+- individual style of the consultant
+
+- most problems do not have a unique solution
+
+- knowledge of the client
+
+- resources available to client and consultant
+
+- the state of the problem (no design, data collected, etc.). 
+
+Source:https://iase-web.org/documents/papers/icots3/BOOK2/B8-4.pdf?1402524953
+---
+
+# Difficulties faced by the consultants
 
 .red[Not all projects have gone as smoothly or been as productive.]
 
@@ -134,9 +179,24 @@ Goals:
 
 - Clients may seek statistical help after data collection, and data do not support to answer the research question
 
-- Times when we thought we understood the dataset and was-in fact-wrong
+- Working with clients who think they know statistics
 
---
+- Dealing with clients "who only want an answer"
+
+- Dealing with impatient clients
+
+- Being constrained by lack of time or other resources
+
+---
+## Challenges
+
+- Working on multiple projects
+
+- Working with large messy datasets
+
+- Keeping up with new techniques
+
+---
 
 .bold[.green["These problems are common and that every statistical consultant, anywhere in the world, has dealt with one or more of the same struggles."]]
 
@@ -326,10 +386,6 @@ class: middle, center
 
 # So go! Consult! Have fun!
 
----
-class: middle, center
-
-22 October 2021
 
 ---
 # Tools
@@ -362,11 +418,6 @@ functions you need for analysis
 - 4_do.R
 
 
----
-
-class: middle, center
-
-29 October 2021
 
 
 ---
@@ -386,11 +437,6 @@ background-size: cover
 background-image: url(img/wf/w4.png)
 background-size: cover
 
----
-
-class: middle, center
-
-12 November 2021
 
 ---
 
@@ -636,6 +682,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
