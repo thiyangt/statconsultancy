@@ -91,7 +91,7 @@ Goals:
 
 The expectation of 80% attendance will allow for unavoidable or legitimate absences such as an illness that requires the student to miss all of his or her classes for 2 days or more, a period of grief for loss of a family member or friend
 
-Failure to maintain at least 80% attendance - (negative 10 marks)
+Failure to maintain at least 80% attendance in all activities - (negative 10 marks)
 
 Final mark: Total marks + (-10)
 
@@ -783,5 +783,17 @@ Source: https://www.qlik.com/blog/visual-encoding
 ]
 
 
+---
+## Project 1
 
+**Part 1**
 
+Visualize faculty lectures/practical timetable
+
+**Part 2**
+Visualize faculty examination timetable
+
+---
+## Project 2
+
+Blog post writing for the SCS website
