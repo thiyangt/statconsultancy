@@ -111,7 +111,7 @@ knitr::include_graphics("img/JohnTukey.jpeg")
 
 ---
 
-# What does statistical consultant do?
+# What does a statistical consultant do?
 
 .bold[.orange[Provide statistical advice, analysis and training]]
 
