@@ -73,8 +73,11 @@ Goals:
 ## At the successful completion of this unit, you will learn
 
 - how statistics are applied in the real world
+
 - how to work on multiple problems
+
 - how to work under time constraints
+
 - how to communicate with non statisticians
 
 
